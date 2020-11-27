@@ -1,7 +1,7 @@
 import { Button, Card, CardContent, FormControl, FormHelperText, Grid, InputLabel, MenuItem, Select, TextField } from "@material-ui/core";
 import React, { useState } from "react";
 import RemoveIcon from "@material-ui/icons/Remove"
-import { useStyles } from "./styles";
+import { useStyles } from "./../styles";
 
 const ProductComponent = ({ allowedProducts,
     handleProductChange,
@@ -50,7 +50,7 @@ const ProductComponent = ({ allowedProducts,
                                         <Grid item md={3} xs={12} sm={12} className={classes.productItem}>
                                             <TextField
                                                 id="qty"
-                                                label="Qty/Liter"
+                                                label="Qty/Litre"
                                                 required
                                                 value={product.qty}
                                                 onChange={(e) =>

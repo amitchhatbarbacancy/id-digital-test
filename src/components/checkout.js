@@ -1,6 +1,6 @@
 import { Button, Card, CardContent, FormHelperText, Grid, Typography } from "@material-ui/core";
 import React from "react";
-import { useStyles } from "./styles";
+import { useStyles } from "./../styles";
 
 const CheckOut = ({ generatedBill, products, error, disabled }) => {
     const classes = useStyles();

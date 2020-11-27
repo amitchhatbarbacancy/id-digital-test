@@ -1,10 +1,10 @@
 import { Card, CardContent, Grid, TextField } from '@material-ui/core';
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
-import ProductComponent from './productComponent';
 import Data from './data.js';
 import debounce from 'lodash.debounce';
-import CheckOut from './checkout';
+import CheckOut from './components/checkout';
+import ProductComponent from './components/productComponent';
 
 const initTotal = {
   subTotal: 0,
