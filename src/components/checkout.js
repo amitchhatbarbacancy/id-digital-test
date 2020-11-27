@@ -47,7 +47,7 @@ const CheckOut = ({ generatedBill, products, error, disabled }) => {
                     PROCESS NOW
           </Button>
                 <FormHelperText className={classes.error}>
-                    {error.total ? 'Total is greater than card balence' : ''}
+                    {error.total ? 'Total is greater than card balance' : ''}
                 </FormHelperText>
             </CardContent>
         </Card>
